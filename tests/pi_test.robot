@@ -18,6 +18,7 @@ Test Pi
     Open Browser        	        ${url}	    Headless Chrome
 
     Page Should Contain element     //h2[@class="entry-title"]
+    Close All Browsers
 
 *** Keywords ***
 
