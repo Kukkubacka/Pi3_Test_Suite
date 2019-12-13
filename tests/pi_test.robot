@@ -14,7 +14,9 @@ Test Pi
     [Documentation]                 Pi3 WordPress testi
     ...                             - tarkasta elementti
     Log                             Pi3 WordPress.
-    Open Browser        	        ${url}		   gc    Desktop
+    #Open Browser        	        ${url}		   gc    Desktop
+    Open Browser        	        ${url}	    Headless Chrome
+
     Page Should Contain element     //h2[@class="entry-title"]
 
 *** Keywords ***
